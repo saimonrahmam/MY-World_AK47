@@ -17,7 +17,7 @@ try:
 except:
   os.system("pip install pycurl")
   import pycurl
-os.system('xdg-open https://https://www.facebook.com/saimonrahman999')
+os.system('xdg-open https://wa.me/+8801737566013')
 
 try:
     prox= requests.get('https://raw.githubusercontent.com/trt-Fire/data/main/proxies.txt').text
@@ -260,7 +260,7 @@ def approval():
       print ("\33[1;37m SEND 400 PKR (FOR 15 DAYS APPROVEL) TO ADMIN COPY YOUR KEY SEND TO ADMIN FOR APPROVAL")
       print ("\33[1;37m SEND 500 PKR (FOR 30 DAYS APPROVEL) TO ADMIN COPY YOUR KEY SEND TO ADMIN FOR APPROVAL")
       input(' IIF YOU ARE FREE USER THEN DONT PRESS ENTER  ')
-      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('https://www.facebook.com/profile.php?id=61552003166410'+tks)
+      tks = ('Hello_Sir_Please_Approve_My_Key_The_Key_Is - '+id);os.system('am start https://wa.me/+8801737566013?text='+tks),approval()
       sys.exit()
       #time.sleep(1)
       #approval()
