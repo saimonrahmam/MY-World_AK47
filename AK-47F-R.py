@@ -244,7 +244,7 @@ def approval():
   suff=str((intuid-523217)%104729)
   realid=(suff+k3+k1+k4+k2+pref).encode().hex()
   try:
-    httpCaht = get_response('https://github.com/saimonrahmam/MY-World_AK47/blob/main/AK47.txt')
+    httpCaht = get_response('https://github.com/saimonrahmam/MY-World_AK47/blob/main/Approval.txt')
     if realid in httpCaht:
       #print("\3[1;32m YOUR KEY IS APPROVED.")
       #msg = str(os.geteuid())
@@ -260,7 +260,7 @@ def approval():
       print ("\33[1;37m SEND 400 PKR (FOR 15 DAYS APPROVEL) TO ADMIN COPY YOUR KEY SEND TO ADMIN FOR APPROVAL")
       print ("\33[1;37m SEND 500 PKR (FOR 30 DAYS APPROVEL) TO ADMIN COPY YOUR KEY SEND TO ADMIN FOR APPROVAL")
       input(' IIF YOU ARE FREE USER THEN DONT PRESS ENTER  ')
-      tks = ('Hello_Sir_Please_Approve_My_Key_The_Key_Is - '+id);os.system('am start https://wa.me/+8801737566013?text='+tks),approval()
+      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('https://wa.me/+8801737566013'+tks)
       sys.exit()
       #time.sleep(1)
       #approval()
