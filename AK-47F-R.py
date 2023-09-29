@@ -149,7 +149,7 @@ device = {
         'fbsv':fbsv,
         'fbca':fbca,
         'fbdm':fbdm}
-os.system('xdg-open https://www.facebook.com/profile.php?id=saimonrahman999')
+os.system('xdg-open https://wa.me/+8801737566013')
 def ua_api():
 	rhm = str(random.randint(100,400))
 	return (f"[FBAN/Orca-Android;FBAV/"+rhm+".0.0.27.214;FBBV/426817936;FBLC/en_GB;FBRV/428276664;FBCR/Nepal Telecom;FBMF/LGE;FBBD/lge;FBPN/com.facebook.orca;FBDV/LMK525;FBSV/11;FBOP/1;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.75,width=720,height=1422};]")
